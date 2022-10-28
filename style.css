@@ -1,4 +1,29 @@
-h1, h2{
+header div.name h1{
+	color:black;
+	text-align:center;
+	padding:10px;
+}
+
+header {
+	background-color:#f7f77e;
+	border-radius:15px;
+	
+}
+
+header nav {
+	text-align:center;
+	padding:10px;
+	
+}
+
+header nav.left a {
+	text-decoration:none;
+	margin-left:50px;
+	color:red;
+}
+
+
+h2{
 	color:blue;
 	font-family:"merriweather";
 	
@@ -13,13 +38,32 @@ p {
 	font-size:16px;
 	
 }
-img {
+.yt {
+	color:orange;
+	font-family:"Barlow";
+	font-size:20px;
+}
+
+.myphoto {
 	width:20%;
 	height:auto;
 	border-radius:30%;
 	border: 1px solid black;
 	padding: 5px;
 	display:block;
-	margin-left: auto;
+	margin-left:auto;
 
+}
+.links{
+	width:50px;
+}
+
+
+body {
+	background-color:#a0fabe;
+}
+
+.hero {
+	display:flex;
+	
 }
